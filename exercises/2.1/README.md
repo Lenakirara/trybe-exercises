@@ -1,4 +1,4 @@
-Estudando Git na prática - Atividade proposta:
+## Estudando Git na prática - Atividade proposta:
 
 1. Navegue até a raiz do projeto com o arquivo .txt,
 2. Crie uma nova branch `git branch trybe-skills-changes`,

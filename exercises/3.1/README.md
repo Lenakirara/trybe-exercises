@@ -1,4 +1,4 @@
-# Bloco 03 - Introdção ao HTML e CSS
+# Bloco 03 - Introdução ao HTML e CSS
 
 Exercícios praticados no módulo Fundamentos do Desenvolvimento Web.
 

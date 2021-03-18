@@ -10,3 +10,6 @@ São mais de 1500 horas de formação que aborda :
 - Engenharia de software
 - Metodologias ágeis
 - Habilidades comportamentais.
+
+Saiba mais clicando aqui [aqui](https://www.betrybe.com/?utm_medium=cpc&utm_source=google&utm_campaign=Brand&utm_content=ad03_din_h&gclid=CjwKCAjw9MuCBhBUEiwAbDZ-7hHkRWPdnaKOrInjaVTXtaTOtDg5U_OFEGPBHy-jMi9bbBMVdAXioRoCVr0QAvD_BwE)
+

@@ -28,7 +28,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML SemÃ¢ntico_
-- [ ] 3-5: _[Projeto - HTML & CSS]()_
+- [ ] 3-5: _[Projeto - HTML & CSS](https://lenakirara.github.io/lessons-learned/)_
 
 ##### Bloco 4: IntroduÃ§Ã£o - JavaScript
 

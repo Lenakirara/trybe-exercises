@@ -1,23 +1,31 @@
-let chessPiece = 'Cavalo'.toLowerCase();
+let chessPiece = 'Rainha';
 
-if (chessPiece == 'rei'){
+switch (chessPiece.toLowerCase()) {
+  case 'rei':
     console.log('Avança uma casa para todos os lados');
-}
-else if(chessPiece == 'rainha'){
+    break;
+
+  case 'rainha':
     console.log('Todos os lados');
-}
-else if(chessPiece == 'bispo'){
+    break;
+
+  case 'bispo':
     console.log('Diagonal');
-}
-else if(chessPiece == 'cavalo'){
+    break;
+
+  case 'cavalo':
     console.log('L');
-}
-else if(chessPiece == 'torre'){
+    break;
+
+  case 'torre':
     console.log('Reta - horizontal e vertical');
-}
-else if(chessPiece == 'peao'){
+    break;
+
+  case 'peao':
     console.log('Avança um casa a frente');
-}
-else{
-    console.log('Peça inválida!');
+    break;
+
+    default:
+      console.log('Peça inválida!');
+
 }

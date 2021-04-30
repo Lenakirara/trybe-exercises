@@ -1,15 +1,20 @@
 let n = 5;
 let symbol = '*';
 let line = '';
+let position = n;
 
-for (let i = 0; i < n; i += 1) {
+for (let linha = 0; linha < n; linha += 1) {
 
-    for(let j = 0; j < n; j += 1){
-        if(i + j >= n){
-            line += symbol;
+    for(let coluna = 1; coluna <= n; coluna += 1){
+        if(j < position){
+            line += ' ';
         }
         else{
-            line = symbol;
+            line += symbol;
         }
     } 
-}console.log(line);
+    console.log(line);
+
+    line = '';
+    position -= 1;
+}

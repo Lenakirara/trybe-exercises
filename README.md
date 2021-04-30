@@ -16,20 +16,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [ ] _[Projeto - HTML & CSS](https://lenakirara.github.io/lessons-learned/)_
+- [x] _[Projeto - HTML & CSS](https://lenakirara.github.io/lessons-learned/)_
 
 ##### Bloco 4: Introdução - JavaScript
 
-- [ ] _[Projeto - Playground Functions](https://github.com/tryber/sd-011-project-playground-functions/pull/44)_
+- [x] _[Projeto - Playground Functions](https://github.com/tryber/sd-011-project-playground-functions/pull/44)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] _[Projeto - Arte com Pixels](https://github.com/tryber/sd-011-project-pixels-art/pull/44)_
-- [ ] _[Projeto - Lista de tarefas](https://github.com/tryber/sd-011-project-todo-list/pull/29)_
+- [x] _[Projeto - Arte com Pixels](https://github.com/tryber/sd-011-project-pixels-art/pull/44)_
+- [x] _[Projeto - Lista de tarefas](https://github.com/tryber/sd-011-project-todo-list/pull/29)_
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [ ] _[Projeto em dupla - Trybewarts](https://github.com/tryber/sd-011-project-trybewarts/pull/143)_
+- [x] _[Projeto em dupla - Trybewarts](https://github.com/tryber/sd-011-project-trybewarts/pull/143)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 

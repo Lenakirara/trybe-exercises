@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form fieldset {
+  padding: 0 40px;
+  border: 1px solid #ccc ;
+}
+
+form legend {
+  font-size: 17px;
+  color: rgb(130, 130, 130);
+}
+
+form label {
+  display: block;
+  padding: 8px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 15px;
+  padding: 10px;
+  width: 400px;
+}
+
+form input[type=text]:focus,
+form input[type=email]:focus {
+  outline: 0;
+}

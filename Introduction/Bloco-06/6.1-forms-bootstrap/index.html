@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Formulários 6.1</title>
+  
+</head>
+
+<body>
+  <section class="section">
+
+    <h1 class="title">Cadastro de Currículo</h1>
+
+    <form action="" method="GET">
+
+      <div class="container">
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Nome e sobrenome</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" name="name-person"
+            placeholder="Digite seu nome" maxlength="40" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        </div>
+
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">CPF</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" name="cpf-code"
+            placeholder="Digite somente números" maxlength="11"
+            onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" name="address"
+            placeholder="Digite seu endereço" maxlength="200" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" name="city" placeholder="Digite sua cidade"
+            maxlength="28" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="disabledSelect" class="form-label">Estados</label>
+          <select id="disabledSelect" class="form-select" value="">
+          </select>
+        </div>
+
+        <div class="box">
+          <p>Marque a opção de residência</p>
+          <div>
+            <label class="label">
+              <input type="radio" name="residence" value="Apartamento" id="input-residence"> Apartamento</label>
+          </div>
+          <div>
+            <label class="label">
+              <input type="radio" name="residence" value="Casa" id="input-residence"> Casa
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Resumo do Currículo</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Cargo</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" name="office"
+            placeholder="Digite seu cargo" maxlength="40" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Decrição do cargo</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" name="description"
+            placeholder="Digite descrição do cargo" maxlength="40" required>
+        </div>
+
+        <div class="box">
+          <label for="input-date">Data de início<input type="text" name="date" id="input-date" class="input-padrao"
+              pattern="/^\d{2}\/\d{2}\/\d{4}" maxlength="40" required></label>
+        </div>
+      </div>
+  </section>
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-success submit-btn" type="submit">Enviar</button>
+    <button class="btn btn-danger reset-btn" type="reset">Resetar</button>
+  </div>
+
+  </form>
+
+
+  
+
+  <div id="form-curriculum"></div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

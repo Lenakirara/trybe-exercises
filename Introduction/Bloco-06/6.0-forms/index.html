@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários 6.0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Cadastro de Currículo</h1>
+
+  <form action="" method="GET">
+    <!-- fieldset - grupo de elemento de formulário -->
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+
+      <div class="line-content">
+        <label for="input-name">Nome e sobrenome <input type="text" name="name-person" id="input-name"
+            class="input-padrao" placeholder="Digite seu nome" maxlength="40" required></label>
+      </div>
+
+      <div class="line-content">
+        <label for="input-email">Email<input type="email" name="email-person" id="input-email" class="input-padrao"
+            placeholder="Digite seu email" maxlength="50" required></label>
+      </div>
+
+      <div class="line-content">
+        <label for="input-cpf">C.P.F.<input type="text" name="cpf-person" id="input-cpf" class="input-padrao"
+            placeholder="Digite somente números" maxlength="11"
+            onkeypress="return event.charCode >= 48 && event.charCode <= 57" required></label>
+      </div>
+
+      <div class="line-content">
+        <label for="input-address">Endereço<input type="text" name="address-person" id="input-address"
+            class="input-padrao" placeholder="Digite seu endereço" maxlength="200" maxlength="11" required></label>
+      </div>
+
+      <div class="line-content">
+        <label for="input-city">Cidade<input type="text" name="city-person" id="input-city" class="input-padrao"
+            placeholder="Digite sua cidade" maxlength="28" maxlength="11" required></label>
+
+        <label for="id-state">Estados</label>
+        <select name="state" value="" id="id-state" class="input-padrao">
+        </select>
+      </div>
+
+      <div class="line-content">
+        <p>Marque a opção de residência: </p>
+        <div>
+          <label for="input-residence">
+            <input type="radio" name="residence" value="Apartamento" id="input-residence"> Apartamento</label>
+        </div>
+        <div>
+          <label for="input-residence">
+          <input type="radio" name="residence" value="Casa" id="input-residence"> Casa
+          </label>
+        </div>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Dados profissionais</legend>
+
+      <div class="line-content">
+        <label for="">Resumo do Currículo</label>
+        <textarea name="description" id="description" class="input-padrao" cols="30" rows="10"
+          style="max-width: 400px;"></textarea>
+      </div>
+
+      <div class="line-content">
+        <label for="input-name">Cargo<input type="text" name="name-person" id="input-name" class="input-padrao"
+            maxlength="40" required></label>
+      </div>
+
+      <div class="line-content">
+        <label for="input-name">Descrição do cargo<input type="text" name="name-person" id="input-name"
+            class="input-padrao" maxlength="40" required></label>
+      </div>
+
+      <div class="line-content">
+        <label for="input-date">Data de início<input type="date" name="date" id="input-date" class="input-padrao"
+            pattern="/^\d{2}\/\d{2}\/\d{4}" maxlength="40" required></label>
+      </div>
+
+    </fieldset>
+
+    <div>
+      <button type="submit" id="submit-button">Enviar</button>
+      <button type="reset" id="reset-button">Limpar</button>
+    </div>
+  </form>
+
+  <div id="form-curriculum"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>

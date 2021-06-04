@@ -33,30 +33,30 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
-- [ ] _[Projeto - JavaScript Testes Unitários]()_
+- [x] _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-011-project-js-unit-tests/pull/44)_
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] _[Projeto - Zoo functions]()_
+- [x] _[Projeto - Zoo functions](https://github.com/tryber/sd-011-project-zoo-functions/pull/20)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] _[Projeto - Carrinho de Compras]()_
+- [x] _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-011-project-shopping-cart/pull/70)_
 
 ##### Bloco 10: Jest
 
 
-- [ ] _[Projeto - Jest Assíncrono e Mocking]()_
+- [x] _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-011-project-jest/pull/70)_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
 
-- [ ] _[Projeto - Movie Cards Library]()_
+- [x] _[Projeto - Movie Cards Library](https://github.com/tryber/sd-011-project-movie-cards-library/pull/19)_
 
 ##### Bloco 12: React
 
-- [ ] _[Projeto - Movie Cards Library Stateful]()_
+- [x] _[Projeto - Movie Cards Library Stateful](https://github.com/tryber/sd-011-project-movie-cards-library-stateful/pull/101)_
 
 ##### Bloco 13: React
 
